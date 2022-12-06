@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #fcf5fa;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #fff;
+}
+.carousel{
+    margin: 0px auto;
+}
+.slider{
+    padding: 80px 0px;
+
+}
+.carousel-inner{
+   width:70%;
+   transform: translate(11%);
+}
+.carousel-inner .carousel-item .card{
+    padding: 40px;
+   background-color: rgb(57, 53, 53);
+}
+.carousel-item .card p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.carousel-item .card h3 {
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+}
+.carousel-item .card h3 span{
+    font-size: 15px;
+    line-height: 28px;
+    color: #ddd;
+}
+
+.carousel-inner img{
+    width: 300px;
+}
+.carousel-inner button span:active{
+    color: #fff;
+    z-index: 2;
+}
